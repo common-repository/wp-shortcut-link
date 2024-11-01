@@ -1,0 +1,515 @@
+
+.desinebox 
+{
+   width: 100%;
+    min-height: 400px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 5px;
+    background-color: #d2d0d2;
+    margin: 0 auto ; 
+    overflow: scroll;
+}
+.pdesine {
+  
+  width: 100%;
+
+}
+.ceshide {display: none;}
+.ces
+{
+    width: 100%;
+    min-height: 200px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 5px;
+    background-color: #f5f6f7;
+}
+.cesheader 
+{
+	float: left;
+    
+    width: 100%;
+    text-align: center;
+}
+.cesheader img
+{
+
+ -webkit-border-radius: 5px;
+-moz-border-radius: 5px;
+border-radius: 5px; 
+    border: 1px dashed #1482d0;
+    cursor: pointer;
+ }
+.cescontent {
+    float: left;
+    width: 100%;
+    height: 250px;
+}
+.cestextarea 
+{
+  float: left;
+    width: 100%;
+}
+.cestextarea input {
+    width: 100%;
+    height: 80px;
+    border: 1px solid #ccc;
+    text-align: center;
+    font-size: 40px;
+}
+
+.cesfooter 
+{
+float: left;
+   
+    min-height: 40px;
+   padding: 1px;
+   width: 100%;
+}
+
+input[type=color] {
+   height: 40px;
+    width: 60px;
+}
+.ceslink {float: right;}
+.embedtitle {margin-top: 20px;float: left;}
+embed {border:1px dashed #3F51B5;float: left;margin-top: 30px;}
+
+#savecat 
+{
+  background-color: #009688;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  cursor: pointer;
+  position: fixed;
+  right: 0px;
+  left: 0px;
+    bottom: 10px;
+    z-index: 1000;
+
+}
+.cesbtn {
+text-align: center;
+    background: #f5f6f7;
+    border-radius: 18px;
+    cursor: pointer;
+    position: relative;
+    padding: 5px;
+    font-size: 30px;
+    width: 200px;
+    border: 1px solid #ccc;
+    margin-top: 5px;
+}
+.cesbtn img {
+    float: left;
+    margin-left: 5px;
+}
+.cesbtn:hover 
+{
+	background: #e4dede;
+}
+.cesstyle 
+{
+	float: left;
+	width: 100%; 
+	margin-top: 5px;
+}
+.cesstyle img {width: 40px;cursor: pointer;}
+.cesstyle ul {list-style: none;}
+.cesstyleul 
+{
+  padding: 0px;
+}
+.cesli {
+    float: right;
+    
+}
+.cescolor {text-align: left;position: relative;}
+.cesdropdown {
+    
+   background-color: #f9f9f9;
+    width: 170px;
+    max-height: 140px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 2px 0px;
+    z-index: 1;
+    border: 1px solid #cccccc;
+    list-style: none;
+    display: none;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    padding: 5px;
+    z-index: 1000;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    position: absolute;
+   right: 1px;
+    top: 10px;
+
+}
+
+.cesdropdown li 
+{
+   display: inline-block;	
+}
+.cesemoji{position: relative;}
+.cescolor:hover .cescolorels {display: block;}
+.cesemoji:hover .cesemojilist {display: block;}
+
+.cescolorels li 
+{
+	width: 30px;
+	height: 30px;
+	margin: 1px;
+}
+
+.cescolorels li span
+{
+	width: 30px;
+	height: 30px;
+  float: left;
+}
+.cesemojilist li
+{
+width: 30px;
+    height: 30px;
+    font-size: 20px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.cesitem 
+
+{
+    /*border: 1px dashed #1482d0;*/
+    height: 70px;
+    text-align: center;
+    font-size: 30px;
+    width: 98%;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    margin-top: 5px;
+}
+
+
+.cesedit{
+  background-image: url(../img/pencil.png);
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    left: 0px;
+    bottom: -2px;
+    background-size: 30px;
+
+    cursor: pointer;
+	
+}
+
+
+.modalces {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 10000; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content/Box */
+.modalces-content {
+  background-color: #fefefe;
+  margin: 5% auto; /* 15% from the top and centered */
+  padding: 20px;
+  border: 1px solid #888;
+  width:60%; 
+  min-height: 300px;
+  text-align: center;
+  overflow: scroll;
+}
+
+
+.closeces {
+  color: #d41717;
+    float: left;
+    font-size: 26px;
+    font-weight: bold;
+    background: #ec7777;
+    border-radius: 50%;
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    padding: 0px;
+    cursor: pointer;
+    -webkit-border-radius:50%;
+-moz-border-radius: 50%;
+border-radius: 50%;
+
+}
+
+.duplicate 
+{
+	position: absolute;
+    right: 0px;
+    /* top: 0; */
+    padding: 2px;
+    background: #4e61e8;
+    color: #fff;
+    cursor: pointer;
+    display: none;
+
+     -webkit-border-radius:5px;
+-moz-border-radius: 5px;
+border-radius: 5px;
+}
+.cesrow:hover .duplicate{display: block;}
+
+
+.overimage {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.m-top {margin-top: 10px;margin-bottom: 10px;}
+.m-left {margin-left: 5px;}
+.cesresponsive {float: left;text-align: center;width: 100%;}
+.cesactive 
+{
+  border: 2px solid #3260e0 !important;
+    padding: 2px;
+}
+.imgresponsive 
+{
+  cursor: pointer;
+}
+.hoverborder {position: relative;}
+.removeitem 
+{
+        -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    background: #d82f2f;
+    color: #fff;
+    width: 30px;
+    height: 30px;
+    font-size: 40px;
+    position: absolute;
+    z-index: 1;
+    text-align: center;
+    cursor: pointer;
+    /* bottom: -20px; */
+    top: 5px;
+    right: 5px;
+}
+
+.cesulcat {width: 100%;float: left;}
+.cesulcat ul 
+    {
+      width: 50%;float: left;
+       list-style: none;
+       max-height: 200px;
+    } 
+.cesulcat ul li
+    {
+      float: left;
+    width: 100%;
+    text-align: left;
+    }
+    .cesleft{float: left;}
+    #cescolorbox 
+    {
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    }
+
+/* responsive */
+
+.cesrow {
+	width: 100%;
+    float: left;
+    margin: 10px 2px;
+
+}
+
+.cesxs-1, .cessm-1, .cesmd-1, .ceslg-1, .cesxs-2, .cessm-2, .cesmd-2, .ceslg-2, .cesxs-3, .cessm-3, .cesmd-3, .ceslg-3, .cesxs-4, .cessm-4, .cesmd-4, .ceslg-4, .cesxs-5, .cessm-5, .cesmd-5, .ceslg-5, .cesxs-6, .cessm-6, .cesmd-6, .ceslg-6, .cesxs-7, .cessm-7, .cesmd-7, .ceslg-7, .cesxs-8, .cessm-8, .cesmd-8, .ceslg-8, .cesxs-9, .cessm-9, .cesmd-9, .ceslg-9, .cesxs-10, .cessm-10, .cesmd-10, .ceslg-10, .cesxs-11, .cessm-11, .cesmd-11, .ceslg-11, .cesxs-12, .cessm-12, .cesmd-12, .ceslg-12 {
+  position: relative;
+  
+}
+.cesxs-1, .cesxs-2, .cesxs-3, .cesxs-4, .cesxs-5, .cesxs-6, .cesxs-7, .cesxs-8, .cesxs-9, .cesxs-10, .cesxs-11, .cesxs-12 {
+  float: left;
+}
+.cesxs-12 {
+  width: 100%;
+}
+.cesxs-11 {
+  width: 91.66666667%;
+}
+.cesxs-10 {
+  width: 83.33333333%;
+}
+.cesxs-9 {
+  width: 75%;
+}
+.cesxs-8 {
+  width: 66.66666667%;
+}
+.cesxs-7 {
+  width: 58.33333333%;
+}
+.cesxs-6 {
+  width: 50%;
+}
+.cesxs-5 {
+  width: 41.66666667%;
+}
+.cesxs-4 {
+  width: 33.33333333%;
+}
+.cesxs-3 {
+  width: 25%;
+}
+.cesxs-2 {
+  width: 16.66666667%;
+}
+.cesxs-1 {
+  width: 8.33333333%;
+}
+
+@media (min-width: 768px) {
+  .cessm-1, .cessm-2, .cessm-3, .cessm-4, .cessm-5, .cessm-6, .cessm-7, .cessm-8, .cessm-9, .cessm-10, .cessm-11, .cessm-12 {
+    float: left;
+  }
+  .cessm-12 {
+    width: 100%;
+  }
+  .cessm-11 {
+    width: 91.66666667%;
+  }
+  .cessm-10 {
+    width: 83.33333333%;
+  }
+  .cessm-9 {
+    width: 75%;
+  }
+  .cessm-8 {
+    width: 66.66666667%;
+  }
+  .cessm-7 {
+    width: 58.33333333%;
+  }
+  .cessm-6 {
+    width: 50%;
+  }
+  .cessm-5 {
+    width: 41.66666667%;
+  }
+  .cessm-4 {
+    width: 33.33333333%;
+  }
+  .cessm-3 {
+    width: 25%;
+  }
+  .cessm-2 {
+    width: 16.66666667%;
+  }
+  .cessm-1 {
+    width: 8.33333333%;
+  }
+ 
+}
+@media (min-width: 992px) {
+  .cesmd-1, .cesmd-2, .cesmd-3, .cesmd-4, .cesmd-5, .cesmd-6, .cesmd-7, .cesmd-8, .cesmd-9, .cesmd-10, .cesmd-11, .cesmd-12 {
+    float: left;
+  }
+  .cesmd-12 {
+    width: 100%;
+  }
+  .cesmd-11 {
+    width: 91.66666667%;
+  }
+  .cesmd-10 {
+    width: 83.33333333%;
+  }
+  .cesmd-9 {
+    width: 75%;
+  }
+  .cesmd-8 {
+    width: 66.66666667%;
+  }
+  .cesmd-7 {
+    width: 58.33333333%;
+  }
+  .cesmd-6 {
+    width: 50%;
+  }
+  .cesmd-5 {
+    width: 41.66666667%;
+  }
+  .cesmd-4 {
+    width: 33.33333333%;
+  }
+  .cesmd-3 {
+    width: 25%;
+  }
+  .cesmd-2 {
+    width: 16.66666667%;
+  }
+  .cesmd-1 {
+    width: 8.33333333%;
+  }
+  
+}
+@media (min-width: 1200px) {
+  .ceslg-1, .ceslg-2, .ceslg-3, .ceslg-4, .ceslg-5, .ceslg-6, .ceslg-7, .ceslg-8, .ceslg-9, .ceslg-10, .ceslg-11, .ceslg-12 {
+    float: left;
+  }
+  .ceslg-12 {
+    width: 100%;
+  }
+  .ceslg-11 {
+    width: 91.66666667%;
+  }
+  .ceslg-10 {
+    width: 83.33333333%;
+  }
+  .ceslg-9 {
+    width: 75%;
+  }
+  .ceslg-8 {
+    width: 66.66666667%;
+  }
+  .ceslg-7 {
+    width: 58.33333333%;
+  }
+  .ceslg-6 {
+    width: 50%;
+  }
+  .ceslg-5 {
+    width: 41.66666667%;
+  }
+  .ceslg-4 {
+    width: 33.33333333%;
+  }
+  .ceslg-3 {
+    width: 25%;
+  }
+  .ceslg-2 {
+    width: 16.66666667%;
+  }
+  .ceslg-1 {
+    width: 8.33333333%;
+  }
+  
+}

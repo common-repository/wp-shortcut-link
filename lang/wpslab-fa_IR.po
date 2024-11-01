@@ -1,0 +1,78 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: wp shortcut link and advertisement baner\n"
+"POT-Creation-Date: 2019-12-10 23:03-0800\n"
+"PO-Revision-Date: 2019-12-10 23:03-0800\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: fa_IR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.2\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n==0 || n==1);\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: wp-shortcut-link-advertisement.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;"
+"_n_noop:1,2;_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: menueadmin.php:105 menueadmin.php:114
+msgid "Row"
+msgstr "سطر"
+
+#: menueadmin.php:106 menueadmin.php:115 menueadmin.php:166
+msgid "Title"
+msgstr "عنوان"
+
+#: menueadmin.php:107 menueadmin.php:116
+msgid "Shortcode"
+msgstr "شورت کد"
+
+#: menueadmin.php:108 menueadmin.php:117
+msgid "Action"
+msgstr "فعالیت"
+
+#: menueadmin.php:135
+msgid "Delete"
+msgstr "حذف"
+
+#: menueadmin.php:137
+msgid "Edit"
+msgstr "ویرایش"
+
+#: menueadmin.php:172
+msgid "Save"
+msgstr "ذخیره"
+
+#: menueadmin.php:185
+msgid "Themeplate"
+msgstr "قالب ها"
+
+#: menueadmin.php:232
+msgid "Demo"
+msgstr "دمو"
+
+#: menueadmin.php:237
+msgid "Responsive"
+msgstr "واکنش گرا"
+
+#: wp-block.php:18
+msgid "shortcute link"
+msgstr "شورت کد لینک و بنر"
+
+#. Plugin Name of the plugin/theme
+msgid "wp shortcut link and advertisement baner"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "An plugin  to create a shortcut link"
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Behzad rohozadeh"
+msgstr ""
